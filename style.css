@@ -1,0 +1,124 @@
+body{
+    font-family: 'Lucida Sans', Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.hero{
+    
+    background-image: url(images/cap1.jpg);
+    height: 250px;
+    background-position: right center;
+    background-size: cover;
+    margin-top:auto;
+    border-top: 1px solid transparent;
+    margin-bottom: 8%;
+}
+.hero nav ul{
+    text-align: right;
+    margin: 15px 30px 0 0;
+}
+.men{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;      
+}
+
+.men a{
+    display: block;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    
+}
+
+.men a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+ }
+
+
+
+
+.men img{
+    display: inline-block;
+width: 20%;
+
+}
+.wpp {
+    width:auto;
+    
+}
+
+main{
+    width:70%;
+    margin: auto;
+}
+.sec1{
+    
+    padding: 10px;
+    margin: 15px;
+    overflow: auto;
+    
+}
+.tit{
+    text-align: left;
+    color: white;
+    margin-top: 17px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 2px 1px 1px #333;
+}
+
+.card{
+    float: left;
+    color: white;
+    text-align: center;
+    background-color: rgb(116, 109, 109);
+    width: 28%;
+    box-sizing: border-box;
+    margin-left:10%;
+    
+    
+}
+
+.card-1{
+    
+    margin-left:20%;
+   
+   
+}
+
+
+
+h3{
+    text-align: center;
+    color: white; 
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 2px 1px 1px #333;
+}
+.tit2{
+background-color: rgba(56, 56, 56, 0.7);
+    border-bottom: 8px solid whitesmoke;
+    padding: 15px;
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.prg{
+    margin-left: 10px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    background-color: #333;
+    padding: 20px;
+}
